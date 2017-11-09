@@ -1,0 +1,54 @@
+header {height: 80px;
+background-color:f8f8ff; }
+
+.not-important {width:270px;
+float:right;
+position: absolute;
+right: -400px;
+top:auto;
+padding: 20px 15px;
+background-color: #f8f8ff;
+}
+
+h1 {font-family: Georgia, Times, Times New Roman, Serif;}
+.row {padding: }
+
+body {width:960px;
+background-image: url(assets/images/subtlepic.png);}
+
+.main-section {width: 650px;
+position: relative;
+height: 200px}
+
+
+.mypicture{float: left;}
+
+.image {float: left;}
+.connection {color:green;
+font-weight: bold;}
+
+.important-nav {
+padding: 0;
+margin: 0;
+list-style: none;}
+
+.important {float: right;
+padding: 14px 16 px;
+display: block;
+text-decoration: none;
+margin: 0 auto;}
+
+.row {height: 80px;}
+
+.name {
+font-weight: bold;}
+
+footer {background-color: #666;
+color:white;
+height: 80px;
+font-family: 'Arial','Helvetica Neue', Helvetica,sans-serif;
+width: 960px;
+clear: both;
+text-decoration-line: none;
+}
+.lastfoot {text-align: center;}

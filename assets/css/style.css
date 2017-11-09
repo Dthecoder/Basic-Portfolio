@@ -1,5 +1,5 @@
 header {height: 80px;
-background-color:f8f8ff; }
+background-color:ffffff; }
 
 .not-important {width:270px;
 float:right;
@@ -13,30 +13,33 @@ background-color: #f8f8ff;
 h1 {font-family: Georgia, Times, Times New Roman, Serif;}
 .row {padding: }
 
-body {width:960px;
-background-image: url(assets/images/subtlepic.png);}
+body {
+background-image: url("../images/background.png");}
 
-.main-section {width: 650px;
+.main-section {width: 1200px;
 position: relative;
 height: 200px}
 
 
-.mypicture{float: left;}
+.mypicture{float: left;
+margin: 20px;}
 
 .image {float: left;}
 .connection {color:green;
 font-weight: bold;}
 
-.important-nav {
-padding: 0;
-margin: 0;
-list-style: none;}
 
 .important {float: right;
-padding: 14px 16 px;
+padding: 10px;
 display: block;
 text-decoration: none;
 margin: 0 auto;}
+
+.important-nav {
+			background: white;
+			width:100%;
+			height: 50px;
+}
 
 .row {height: 80px;}
 
@@ -44,11 +47,13 @@ margin: 0 auto;}
 font-weight: bold;}
 
 footer {background-color: #666;
+height: 70px;
 color:white;
-height: 80px;
 font-family: 'Arial','Helvetica Neue', Helvetica,sans-serif;
-width: 960px;
+width: 100%;
 clear: both;
 text-decoration-line: none;
+bottom: 0;
+position:absolute;
 }
 .lastfoot {text-align: center;}
